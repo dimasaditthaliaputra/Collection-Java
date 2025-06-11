@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class DemoArrayList {
     public static void main(String[] args) {
@@ -31,6 +33,18 @@ public class DemoArrayList {
         //     System.out.println(cust.toString());
         // }
 
+        System.out.println(customers);
+
+        ArrayList<String> daftarSiswa = new ArrayList<>();
+        daftarSiswa.add("Zainab");
+        daftarSiswa.add("Andi");
+        daftarSiswa.add("Rara");
+        Collections.sort(daftarSiswa);
+
+        System.out.println(daftarSiswa);
+
+        customers.sort((c1, c2)-> c1.name.compareTo(c2.name));
+        
         System.out.println(customers);
     }
 }
