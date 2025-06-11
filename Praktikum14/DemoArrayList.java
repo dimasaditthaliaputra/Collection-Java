@@ -39,6 +39,7 @@ public class DemoArrayList {
         daftarSiswa.add("Zainab");
         daftarSiswa.add("Andi");
         daftarSiswa.add("Rara");
+        
         Collections.sort(daftarSiswa);
 
         System.out.println(daftarSiswa);
